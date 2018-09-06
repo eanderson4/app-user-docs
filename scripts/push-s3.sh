@@ -1,0 +1,1 @@
+aws s3 sync --acl public-read site s3://docs.andersonopt.com/app/v3/

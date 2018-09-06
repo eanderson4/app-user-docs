@@ -1,0 +1,80 @@
+# Project information
+site_name: Anderson Opt User Documentation
+site_description: 'User Documentation for the Frontend'
+site_author: 'Eric Anderson'
+site_url: 'https://docs.andersonopt.com/v3/'
+
+# Copyright
+copyright: 'Copyright &copy; 2015 - 2018 Anderson Optimization'
+
+# Repository
+repo_name: 'andersonopt/docs'
+repo_url: 'https://github.com/andersonopt/docs'
+
+# Configuration
+theme:
+  name: 'material'
+  palette:
+    primary: blue grey
+    accent: blue
+  logo: 'assets/images/logo.png'
+  favicon: 'assets/images/favicon.ico'
+
+
+# pages:
+#     - Home: index.md
+#     - About: about.md
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/andersonopt'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/company/anderson-optimization'
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+
+# Page tree
+nav:
+  - Anderson Opt: index.md
+  - Getting started: getting-started.md
+  - AO Prospect: ao-prospect/walkthrough.md
+  - AO Site Analysis: ao-site-analysis/walkthrough.md
+  - Reference:
+    - Users: comp-export/overview.md
+    - Teams: comp-export/overview.md
+    - Companies: comp-export/overview.md
+    - Resources:
+      - Projects: res-project/overview.md
+      - Assets: res-asset/overview.md
+      - Org: res-org/overview.md
+      - File: res-file/overview.md
+      - Data: res-data/overview.md
+      - Scenario:
+        - Overview: res-scenario/overview.md
+        - Scenario Run: res-scenario/overview.md
+      - Task: res-task/overview.md
+      - Workspace: res-workspace/overview.md
+    - Components:
+      - Parameters: comp-parameter/overview.md
+      - Map: comp-map/overview.md
+      - Table: comp-table/overview.md
+      - Graph: comp-graph/overview.md
+      - Filter: comp-filter/overview.md
+      - Export: comp-export/overview.md
+    - Events: comp-export/overview.md
+    - Plugins:
+      - ReportAll: plugin/reportall.md
+    - Configuration:
+      - Primary Config: config/primary.md
+      - Team Config: config/team.md
+      - Map Styles Config: config/map-styles.md
+  - Release notes: release-notes.md
