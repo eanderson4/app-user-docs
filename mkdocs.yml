@@ -8,7 +8,7 @@ site_url: 'https://docs.andersonopt.com/v3/'
 copyright: 'Copyright &copy; 2015 - 2018 Anderson Optimization'
 
 # Repository
-repo_name: 'andersonopt/docs'
+repo_name: 'andersonopt/app-user-docs'
 repo_url: 'https://github.com/andersonopt/app-user-docs'
 
 # Configuration
